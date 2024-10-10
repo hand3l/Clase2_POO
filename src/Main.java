@@ -1,8 +1,10 @@
+import java.sql.SQLOutput;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args)	{
-        System.out.println("Hello World!");
+        System.out.println("--------------Clase 2 - POO---------\n");
         //Para declarar el objeto
         //Para instanciar una clase
         Libro libro = new Libro("El Respandor","Stephen King","De Bolsillo",600);
@@ -22,5 +24,9 @@ public class Main {
         System.out.println();libro4.imprimircubierta();
         libro5.imprimir();
         System.out.println();libro5.imprimircubierta();
+
+        System.out.println("\n----------VIDEOJUEGO-----------\n");
+        Videojuego videojuego1 = new Videojuego("The Legend of Zelda: Breath of the Wild","Aventura","Moderada",2017);
     }
+
 }
