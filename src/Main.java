@@ -27,6 +27,27 @@ public class Main {
 
         System.out.println("\n----------VIDEOJUEGO-----------\n");
         Videojuego videojuego1 = new Videojuego("The Legend of Zelda: Breath of the Wild","Aventura","Moderada",2017);
-    }
+        Videojuego videojuego2 = new Videojuego("God of War","Acción","Moderada",2018);
+        Videojuego videojuego3 = new Videojuego("Hollow Knight","Aventura","Moderada",2017);
+        Videojuego videojuego4 = new Videojuego("Overwatch","Shooter en equipo","Variable",2016);
+        Videojuego videojuego5 = new Videojuego();
 
+
+        //Imprimir algo en especifico
+        System.out.println(videojuego1.getCategoria());
+        System.out.println(videojuego2.getNombre());
+        System.out.println(videojuego3.getCategoria());
+
+        //Para que se imprima otro valor
+        System.out.println(videojuego2.getLanzamineto());
+        videojuego2.setLanzamineto(2024);
+        System.out.println(videojuego2.getLanzamineto());
+
+        //Para agregar un dato-Constructor vacio
+        videojuego3.setNombre("Pacman");
+        videojuego4.setLanzamineto(2001);
+        videojuego5.imprimir();
+
+
+    }
 }
